@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grid{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.avo{
+    background-color: bisque;
+}
+
+.pai{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.filho{
+    height: 100px;
+    width: 100px;
+}
+
+.bc_azul{
+    background-color: blue;
+}
+
+.bc_amarelo{
+    background-color: yellow;
+}
+
+.bc_verde{
+    background-color: green;
+}

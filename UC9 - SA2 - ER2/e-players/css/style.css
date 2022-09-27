@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grid{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    display: none;
+}
+
+header{
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.cabecalho_alinhamento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.menu{
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    scale: 1.1;
+}
+
+.barras{
+    display: none;
+}
+
+.cabecalho_alinhamento svg{
+    width: 30px;
+    fill: #ffffff;
+}
+
+.banner{
+    background-image: url(../img/ImagemBanner.png);
+    height: 600px;
+    background-size: cover;
+}
+
+.posicao_texto{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.texto_banner{
+    color: #ffffff;
+    text-align: center;
+}
+
+.texto_banner span{
+    font-size: 80px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.texto_banner p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.texto_banner a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #C31616;
+    padding: 12px 32px;
+    border-radius: 10px;
+}
+
+.secao_jogos{
+    background-color: #000000;
+}
+
+/* .linha_jogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 120px;
+} */
+
+.linha_jogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.ofertas{
+    background-color: #1E1C21;
+    padding: 30px 0;
+}
+
+h2{
+    color: #ffffff;
+}
+
+.secao_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 215px;
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .logo{
+        width: 250px;
+        margin-right: 20px;
+    }
+    
+    .menu{
+        width: 550px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+
+    .barras{
+        display: flex;
+    }
+}
