@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "thiago@email.com",
+      "password": "$2a$10$uc3Luo1v9vprAzOHK5cE0.cTl1c4.kwV7wYgzOn42PaBQf1kRZ9mC",
+      "nome": "Thiago",
+      "idade": 24,
+      "id": 1
+    }
+  ],
+  "produtos": []
+}
