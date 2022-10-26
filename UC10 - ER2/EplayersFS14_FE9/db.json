@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "thiago@email.com",
+      "password": "$2a$10$uc3Luo1v9vprAzOHK5cE0.cTl1c4.kwV7wYgzOn42PaBQf1kRZ9mC",
+      "nome": "Thiago",
+      "idade": 24,
+      "id": 1
+    },
+    {
+      "email": "odirlei@email.com",
+      "password": "$2a$10$3ChONX98WLCUizLw3zbz7ee3wzNVo4MMLpZZbrBuAomO1skBX44RC",
+      "nome": "Odirlei",
+      "id": 2
+    }
+  ],
+  "produtos": []
+}
